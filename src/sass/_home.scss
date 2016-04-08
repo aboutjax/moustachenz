@@ -18,14 +18,14 @@
   overflow: hidden;
   transition: filter 0.5s linear;
   margin-top: -4px;
-  filter: grayscale(0%);
+  filter: brightness(70%);
 
   @media screen and (max-width: 400px) {
     flex-basis: 100px;
   }
 
   &:hover {
-    filter: grayscale(50%);
+    filter: brightness(100%);
   }
 
   img {
@@ -41,7 +41,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0,0,0,0.5);
   pointer-events: none;
 }
 
@@ -49,4 +48,5 @@
   color: white;
   font-size: 35px;
   font-weight: 100;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
 }

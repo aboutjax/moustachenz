@@ -30,16 +30,16 @@
   transition: filter 0.5s linear;
   transition: filter 0.5s linear, -webkit-filter 0.5s linear;
   margin-top: -4px;
-  -webkit-filter: grayscale(0%);
-          filter: grayscale(0%); }
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%); }
   @media screen and (max-width: 400px) {
     .post {
       -webkit-flex-basis: 100px;
           -ms-flex-preferred-size: 100px;
               flex-basis: 100px; } }
   .post:hover {
-    -webkit-filter: grayscale(50%);
-            filter: grayscale(50%); }
+    -webkit-filter: brightness(100%);
+            filter: brightness(100%); }
   .post img {
     width: 100%; }
 
@@ -60,10 +60,10 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: rgba(0, 0, 0, 0.5);
   pointer-events: none; }
 
 .hashtag {
   color: white;
   font-size: 35px;
-  font-weight: 100; }
+  font-weight: 100;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6); }
