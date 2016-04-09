@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.popular {
+.mo-popular {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -12,15 +12,15 @@
   padding: 0;
 }
 
-.post {
-  flex-basis: 300px;
+.mo-post {
+  flex-basis: 400px;
   flex-grow: 1;
   overflow: hidden;
   transition: filter 0.5s linear;
   margin-top: -4px;
   filter: brightness(90%);
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 800px) {
     flex-basis: 100px;
   }
 
@@ -33,7 +33,7 @@
   }
 }
 
-.hashtag-container {
+.mo-hashtag-container {
   z-index: 1;
   position: fixed;
   width: 100%;
@@ -41,12 +41,63 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  pointer-events: none;
 }
 
-.hashtag {
-  color: white;
+.mo-hashtag {
   font-size: 35px;
   font-weight: 100;
-  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.mo-homepage-panel {
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  background: #F9EBD1;
+  padding: 20px;
+  border: 15px solid #FFF;
+
+  @media screen and (max-width: 800px) {
+    width: 350px;
+  }
+}
+
+.mo-homepage-logo {
+  max-width: 140px;
+  margin-bottom: 20px;
+}
+
+.mo-homepage-message {
+  font-size: 14px;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-top: 0;
+  font-family: 'arial';
+  color: #3d3c37;
+}
+
+.mo-social-container {
+  display: flex;
+  margin-top: 30px;
+}
+.mo-social {
+  padding: 10px;
+  font-size: 25px;
+  opacity: 0.5;
+  color: #3d3c37;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.mo-link {
+  color: #0085ff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
