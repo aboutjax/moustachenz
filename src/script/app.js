@@ -10,4 +10,4 @@ $.ajax({
   }
 });
 
-setTimeout('window.location.reload();', 30000);
+// setTimeout('window.location.reload();', 30000);
