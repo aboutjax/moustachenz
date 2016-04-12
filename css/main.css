@@ -2,6 +2,12 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+html {
+  font-size: 10px; }
+  @media screen and (max-width: 800px) {
+    html {
+      font-size: 7px; } }
+
 .mo-popular {
   display: -webkit-box;
   display: -webkit-flex;
@@ -59,11 +65,8 @@
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
-
-.mo-hashtag {
-  font-size: 35px;
-  font-weight: 100; }
+          justify-content: center;
+  font-size: 1.9rem; }
 
 .mo-homepage-panel {
   -webkit-border-radius: 3px;
@@ -85,7 +88,7 @@
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 400px;
+  width: 450px;
   background: #F9EBD1;
   padding: 20px;
   border: 15px solid #FFF; }
@@ -94,34 +97,41 @@
       width: 350px; } }
 
 .mo-homepage-logo {
-  max-width: 140px;
-  margin-bottom: 20px; }
-
-.mo-homepage-message {
-  font-size: 14px;
-  line-height: 1.5rem;
-  text-align: center;
-  margin-top: 0;
-  font-family: 'arial';
-  color: #3d3c37; }
+  max-width: 140px; }
 
 .mo-social-container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
-  margin-top: 30px; }
+  display: flex; }
 
 .mo-social {
   padding: 10px;
-  font-size: 25px;
+  font-size: 2.5rem;
   opacity: 0.5;
   color: #3d3c37; }
   .mo-social:hover {
     opacity: 1; }
 
-.mo-link {
-  color: #0085ff;
-  text-decoration: none; }
-  .mo-link:hover {
-    text-decoration: underline; }
+.mo-homepage-hours-container {
+  width: 290px; }
+
+.mo-homepage-hours-table {
+  margin-bottom: 4rem;
+  width: 100%;
+  text-transform: uppercase; }
+
+.mo-table-header {
+  width: 100%;
+  text-align: center; }
+
+.mo-homepage-hours-row {
+  color: #6c675d;
+  line-height: 4rem; }
+
+.mo-homepage-hours-time {
+  text-align: right; }
+
+.mo-homepage-bus-illustration {
+  width: 80%;
+  margin-bottom: 4rem; }

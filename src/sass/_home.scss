@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+
+
+  @media screen and (max-width: 800px) {
+    font-size: 7px;
+  }
+}
+
 .mo-popular {
   display: flex;
   flex-wrap: wrap;
@@ -41,11 +50,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.mo-hashtag {
-  font-size: 35px;
-  font-weight: 100;
+  font-size: 1.9rem;
 }
 
 .mo-homepage-panel {
@@ -54,7 +59,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 400px;
+  width: 450px;
   background: #F9EBD1;
   padding: 20px;
   border: 15px solid #FFF;
@@ -66,25 +71,15 @@
 
 .mo-homepage-logo {
   max-width: 140px;
-  margin-bottom: 20px;
-}
-
-.mo-homepage-message {
-  font-size: 14px;
-  line-height: 1.5rem;
-  text-align: center;
-  margin-top: 0;
-  font-family: 'arial';
-  color: #3d3c37;
 }
 
 .mo-social-container {
   display: flex;
-  margin-top: 30px;
 }
+
 .mo-social {
   padding: 10px;
-  font-size: 25px;
+  font-size: 2.5rem;
   opacity: 0.5;
   color: #3d3c37;
 
@@ -93,11 +88,31 @@
   }
 }
 
-.mo-link {
-  color: #0085ff;
-  text-decoration: none;
+.mo-homepage-hours-container {
+  width: 290px;
+}
 
-  &:hover {
-    text-decoration: underline;
-  }
+.mo-homepage-hours-table {
+  margin-bottom: 4rem;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.mo-table-header {
+  width: 100%;
+  text-align: center;
+}
+
+.mo-homepage-hours-row {
+  color: #6c675d;
+  line-height: 4rem;
+}
+
+.mo-homepage-hours-time {
+  text-align: right;
+}
+
+.mo-homepage-bus-illustration {
+  width: 80%;
+  margin-bottom: 4rem;
 }
