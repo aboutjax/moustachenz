@@ -154,4 +154,8 @@ html {
   align-items: center;
   background: white;
   color: #6c675d;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
 }

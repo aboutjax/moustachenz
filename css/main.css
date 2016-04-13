@@ -206,3 +206,6 @@ html {
           align-items: center;
   background: white;
   color: #6c675d; }
+  @media screen and (max-width: 800px) {
+    .mo-hashtag-banner {
+      width: 100%; } }
