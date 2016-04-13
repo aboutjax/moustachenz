@@ -20,6 +20,5 @@ $.ajax({
       var time = times[i]
       $(".mo-homepage-hours-container").append("<table class='mo-homepage-hours-table'><tr><th colspan='2' class='mo-table-header'>" + time.location + "</tr><tr class='mo-homepage-hours-row'><td>" + time.days + "</td><td class='mo-homepage-hours-time'>" + time.hours + "</td></tr><tr class='mo-homepage-hours-row'><td>" + time.days2 + "</td><td class='mo-homepage-hours-time'>" + time.hours2 + "</td></tr></table>");
     }
-    console.log(times)
   }
 });
