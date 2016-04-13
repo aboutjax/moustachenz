@@ -10,4 +10,27 @@ $.ajax({
   }
 });
 
+$.ajax({
+  type: "GET",
+  dataType: "json",
+	cache: false,
+  url: "https://sheetsu.com/apis/v1.0/6ff573d5",
+  success: function(times) {
+    for (var i = 0; i < times.length; i++) {
+      var time = times[i]
+      $(".mo-homepage-hours-container").append("<table class='mo-homepage-hours-table'><tr><th colspan='2' class='mo-table-header'>" + time.location + "</tr><tr class='mo-homepage-hours-row'><td>" + time.days + "</td><td class='mo-homepage-hours-time'>" + time.hours + "</td></tr><tr class='mo-homepage-hours-row'><td>" + time.days2 + "</td><td class='mo-homepage-hours-time'>" + time.hours2 + "</td></tr></table>");
+    }
+    console.log(times)
+  }
+});
+
 // setTimeout('window.location.reload();', 30000);
+//
+//
+// <tr>
+//   <th colspan="2" class="mo-table-header">Lynn Mall Brickworks</th>
+// </tr>
+// <tr class="mo-homepage-hours-row">
+//   <td>Mon - Thu</td>
+//   <td class="mo-homepage-hours-time">9am - 9pm</td>
+// </tr>
