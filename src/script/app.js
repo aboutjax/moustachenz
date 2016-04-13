@@ -23,14 +23,3 @@ $.ajax({
     console.log(times)
   }
 });
-
-// setTimeout('window.location.reload();', 30000);
-//
-//
-// <tr>
-//   <th colspan="2" class="mo-table-header">Lynn Mall Brickworks</th>
-// </tr>
-// <tr class="mo-homepage-hours-row">
-//   <td>Mon - Thu</td>
-//   <td class="mo-homepage-hours-time">9am - 9pm</td>
-// </tr>
