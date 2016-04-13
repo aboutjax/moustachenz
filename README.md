@@ -9,4 +9,8 @@ A Dynamic landing page for [Moustache Milk & Cookies Bus][feb5ffbd] that pulls i
 
   [3eca5a45]: https://sheetsu.com/your-apis "Sheetsu"
 
+#### Wide screen
 ![Imgur](http://i.imgur.com/RfMmO4s.jpg)
+
+#### Small screen
+![Imgur](http://i.imgur.com/uryYLfq.jpg)
