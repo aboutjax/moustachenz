@@ -1,6 +1,6 @@
 # moustachenz
 
-A Dynamic landing page for [Moustache Milk & Cookies Bus][feb5ffbd] that pulls information from external sources:
+A dynamic landing page for [Moustache Milk & Cookies Bus][feb5ffbd] that pulls information from external sources:
 
   [feb5ffbd]: https://www.facebook.com/MoustacheNZ "Moustache"
 
