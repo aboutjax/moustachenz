@@ -4,7 +4,8 @@
 
 html {
   font-size: 10px;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  background-color: #fcf1dd; }
   @media screen and (max-width: 800px) {
     html {
       font-size: 7px; } }
@@ -77,8 +78,7 @@ html {
   @media screen and (max-width: 800px) {
     .mo-homepage-container {
       position: inherit;
-      width: 100%;
-      height: inherit; } }
+      width: 100%; } }
 
 .mo-homepage-panel {
   -webkit-border-radius: 3px;
@@ -101,9 +101,7 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 450px;
-  background: #F9EBD1;
   padding: 1rem;
-  border: 1rem solid #FFF;
   border-bottom: none; }
   @media screen and (max-width: 800px) {
     .mo-homepage-panel {
@@ -143,7 +141,7 @@ html {
   padding: 10px;
   font-size: 2.5rem;
   opacity: 0.5;
-  color: #3d3c37; }
+  color: #eba422; }
   .mo-social:hover {
     opacity: 1; }
 
@@ -168,7 +166,7 @@ html {
           flex-direction: column; }
   @media screen and (max-width: 800px) {
     .mo-homepage-hours-container {
-      width: 190px; } }
+      width: 230px; } }
 
 .mo-homepage-hours-table {
   margin-bottom: 2rem;
@@ -180,7 +178,7 @@ html {
   text-align: center; }
 
 .mo-homepage-hours-row {
-  color: #6c675d;
+  color: #eba422;
   line-height: 3rem; }
 
 .mo-homepage-hours-time {
@@ -205,7 +203,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   background: white;
-  color: #6c675d; }
+  color: #eba422; }
   @media screen and (max-width: 800px) {
     .mo-hashtag-banner {
       width: 100%; } }
