@@ -6,6 +6,9 @@
     <meta name="description" content="We’re a little milk and cookie bus with a huge passion for baking the freshest and yummiest cookies around town. Team our cookies with delicious milkshakes, hot coffee or just dunk them in cold milk like the good ol’ days.">
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
 
+    <!-- Fontawesome -->
+    <script src="https://use.fontawesome.com/58b3794c29.js"></script>
+
     <!-- Facebook Open Graph -->
     <meta property="og:title" content="Moustache Milk & Cookie Bus" />
     <meta property="og:url" content="http://moustache.co.nz" />
@@ -32,32 +35,128 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
     <script src ="src/script/app.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
 
   </head>
   <body>
-    <div class="mo-homepage-container">
-      <div class="mo-homepage-panel">
-        <div class="mo-homepage-panel-header">
-          <img class="mo-homepage-logo" src="images/mo-logo.svg">
-          <img class="mo-homepage-bus-illustration" src="images/bus.png">
+    <section class="mo-section mo-hero-banner">
+      <img class="mo-logo" src="images/mo-logo.svg" alt="logo">
+      <div class="mo-social-banner">
+        <a class="mo-social-banner__link" href="https://facebook.com/moustachenz">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a class="mo-social-banner__link" href="https://instagram.com/moustachenz">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a class="mo-social-banner__link" href="https://twiiter.com/moustachenz">
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+
+
+    <section class="mo-section mo-section--outlets">
+
+      <div class="mo-outlet-card">
+        <img src="images/auckland.png" alt="auckland store" class="mo-outlet-card__illustration">
+        <div class="mo-outlet-card__top">
+          <h1 class="mo-outlet-name">Auckland</h1>
+          <h3 class="mo-outlet-address">34 Princes Street, AU Quad</h3>
         </div>
-        <div class="mo-homepage-hours-container"></div>
-        <div class="mo-social-container">
-          <a href="https://www.facebook.com/MoustacheNZ">
-            <i class="mo-social fa fa-facebook-square"></i>
-          </a>
-          <a href="https://twitter.com/MoustacheNZ">
-            <i class="mo-social fa fa-twitter-square"></i>
-          </a>
-          <a href="https://www.instagram.com/moustachenz/">
-            <i class="mo-social fa fa-instagram"></i>
-          </a>
+        <table class="mo-outlet-card__hours">
+          <tr class="mo-outlet-card__hours__row">
+            <td>Sun</td>
+            <td class="hours">Closed</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Mon</td>
+            <td class="hours">10am - 7pm</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Tue</td>
+            <td class="hours">10am - 7pm</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Wed</td>
+            <td class="hours">10am - 7pm</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Thu</td>
+            <td class="hours">10am - 7pm</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Fri</td>
+            <td class="hours">10am - 7pm</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Sat</td>
+            <td class="hours">12am - 6pm</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="mo-outlet-card">
+        <img src="images/wellington.png" alt="wellington store" class="mo-outlet-card__illustration">
+        <div class="mo-outlet-card__top">
+          <h1 class="mo-outlet-name">Wellington</h1>
+          <h3 class="mo-outlet-address">7 Marion Street, Te Aro</h3>
+        </div>
+        <table class="mo-outlet-card__hours">
+          <tr class="mo-outlet-card__hours__row">
+            <td>Sun</td>
+            <td class="hours">10am - 6pm</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Mon</td>
+            <td class="hours">Closed</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Tue</td>
+            <td class="hours">10am - 6pm</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Wed</td>
+            <td class="hours">10am - 6pm</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Thu</td>
+            <td class="hours">10am - 6pm</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Fri</td>
+            <td class="hours">10am - 9pm</td>
+          </tr>
+          <tr class="mo-outlet-card__hours__row">
+            <td>Sat</td>
+            <td class="hours">12am - 6pm</td>
+          </tr>
+        </table>
+      </div>
+
+    </section>
+
+    <footer class="mo-footer">
+      <div class="mo-container">
+        <div class="mo-footer__left">
+          <img class="mo-footer__logo" src="images/mo-logo.svg" alt="logo" />
+          <p class="mo-footer__description">We’re a little milk and cookie bar with a huge passion for baking the freshest and yummiest cookies around town. Team our cookies with delicious milkshakes, hot coffee or just dunk them in cold milk like the good ol’ days.</p>
+        </div>
+        <div class="mo-footer__right">
+          <div class="mo-social-banner">
+            <a class="mo-social-banner__link" href="https://facebook.com/moustachenz">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+            <a class="mo-social-banner__link" href="https://instagram.com/moustachenz">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a class="mo-social-banner__link" href="https://twiiter.com/moustachenz">
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-    <ul class="mo-popular">
-    </ul>
+
+    </footer>
   </body>
 </html>

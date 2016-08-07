@@ -1,0 +1,14 @@
+// Base Reset
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: $mo-brand;
+
+  @include mobile {
+    font-size: 8px;
+  };
+}
